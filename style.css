@@ -384,18 +384,19 @@ section{
     position: absolute;
     top: 100%;
     right: 0;
-    width: 50%;
-    padding: 1rem 3rem;
+    width: 70%;
+    max-width: 300px;
+    padding: 1rem 2rem;
     background: rgba(0, 0, 0, 0.8);
-    border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 1.5rem;
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
     display: none;
   }
   .navbar a{
     display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
+    font-size: 1.5rem;
+    margin: 2rem 0;
     color: var(--text-color);
   }
   .navbar.active{
@@ -406,26 +407,33 @@ section{
   }
   .home{
     flex-direction: column-reverse;
-    margin: 5rem 0;
-    gap: 5rem;
+    margin: 3rem 0;
+    gap: 3rem;
   }
   .home-content{
     align-items: center;
     text-align: center;
+    padding: 0 1rem; 
   }
   .home-img img{
-    width: 56vw;
+    width: 90%; /* ginawang percent para responsive */
+    max-width: 350px; /* para di lumaki sobra sa laptop */
+    height: auto;
   }
   .about{
     flex-direction: column-reverse;
     text-align: center;
+    padding: 0 1rem;
   }
   .about h2{
     text-align: center;
+    margin: 1.5rem 0;
     margin: 2rem 0;
   }
   .about img{
-    width: 52vw;
+    width: 90%;
+    max-width: 350px;
+    height: auto;
   }
   .contact form{
     flex-direction: column;
