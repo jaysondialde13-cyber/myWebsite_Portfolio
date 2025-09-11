@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
+    <title>Jayson's Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <a href="#home" class="logo"> Jayson <span>Dialde</span> </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
 
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -23,7 +28,10 @@
         <a href="#contact">Contact</a>
       </nav>
 
-      <button class="gradient-btn">Contact Me</button>
+      <a href="#contact" class="gradient-btn">Contact Me</a>
+      <div class="theme-toggle">
+        <i class="bx bx-moon" id="theme-icon"></i>
+      </div>
     </header>
 
     <!-- Home Section Starts -->
@@ -39,14 +47,25 @@
           web development.
         </p>
         <div class="social-icons">
-          <a href="#"><i class="bx bxl-facebook"></i></a>
-          <a href="#"><i class="bx bxl-instagram"></i></a>
-          <a href="#"><i class="bx bxl-github"></i></a>
-          <a href="#"><i class="bx bx-envelope"></i></a>
+          <a href="https://www.facebook.com/jaysonmalakidialde" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/jayson_dialde/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/jaysondialde13-cyber" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=jaysondialde13@gmail.com"
+            target="_blank"
+            ><i class="bx bx-envelope"></i
+          ></a>
         </div>
         <div class="btn-group">
-          <a href="#" class="btn">Hire</a>
-          <a href="#contact" class="btn">Contact</a>
+          <a href="RESUME-JAYSON.pdf" class="btn" target="_blank">
+            <i class="bx bx-download"></i> Resume
+          </a>
         </div>
       </div>
 
@@ -75,9 +94,177 @@
           every project is not just a requirement it's a stepping stone toward
           my bigger dream.
         </p>
-        <a href="#" class="btn">Read More</a>
       </div>
     </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code-curly"></i>
+            <h4>Programming Development</h4>
+            <p>
+              I can build small-scale projects and management systems using
+              Java, MS Access, and basic web technologies.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-desktop"></i>
+            <h4>PC & Hardware Support</h4>
+            <p>
+              Able to troubleshoot, repair, and maintain PCs, printers, and even
+              mobile devices.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code-alt"></i>
+            <h4>Web & Coding Assistance</h4>
+            <p>
+              Knowledgeable in Visual Studio Code and capable of creating simple
+              websites and coding projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="project1.png" alt="" />
+          <h3>Sari-Sari Store Inventory Management System</h3>
+          <p>
+            Developed a simple inventory system that tracks products, sales, and
+            stock levels for a sari-sari store using Java and MySQL.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.png" alt="" />
+          <h3>MS Access - SSIMS Database</h3>
+          <p>
+            Designed and implemented a database in MS Access for the SSIMS,
+            complete with tables, queries, and reports.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="project3.png" alt="" />
+          <h3>Portfolio Website (VS Code)</h3>
+          <p>
+            Built a personal portfolio website using HTML, CSS, and basic
+            JavaScript inside Visual Studio Code to showcase projects and
+            skills.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="project4.jpg" alt="" />
+          <h3>Printer Troubleshooting</h3>
+          <p>
+            Hands-on experience in diagnosing and fixing printer issues,
+            including paper feed problems and basic maintenance.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="project5.jpg" alt="" />
+          <h3>PC Troubleshooting</h3>
+          <p>
+            Skilled at assembling, repairing, and maintaining desktop computers,
+            including hardware checks and software setups.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="project6.jpg" alt="" />
+          <h3>iPhone Repair</h3>
+          <p>
+            Practical experience in fixing common iPhone issues such as battery
+            replacement, screen troubleshooting, and basic diagnostics.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="https://formspree.io/f/mkgvyllr" method="POST">
+        <div class="input-group">
+          <div class="input-box">
+            <input
+              type="text"
+              name="Full Name"
+              placeholder="Full Name"
+              required
+            />
+            <input type="email" name="Email" placeholder="Email" required />
+          </div>
+
+          <div class="input-box">
+            <input
+              type="number"
+              name="Mobile Number"
+              placeholder="Mobile Number"
+            />
+            <input type="text" name="Subject" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name="Message"
+            placeholder="Your Message"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bx-envelope"></i></a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+
+        <li>
+          <a href="#services">Services</a>
+        </li>
+
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">© 2025 Jayson Dialde | All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
