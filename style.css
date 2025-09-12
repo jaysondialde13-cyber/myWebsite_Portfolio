@@ -452,9 +452,9 @@ section{
   color: var(--main-color); /* optional highlight effect */
 }
 .dark-mode {
-  --bg-color: #413e3e;
-  --second-bg-color: #2a2a2a;
-  --text-color: #eee9e9;
+  --bg-color: #f5f3f3;
+  --second-bg-color: #d3d3d3;
+  --text-color: #000000;
   --main-color: #00aaff;
   --secondary-color: #ffffff;
   background-color: var(--bg-color);
