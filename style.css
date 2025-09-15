@@ -15,6 +15,7 @@
 html {
   font-size: 60%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   background: var(--bg-color);
@@ -214,6 +215,80 @@ section{
 .about-content .btn{
   margin: 3rem 0;
 }
+.timeline {
+  margin-top: 10rem;
+  border-left: 3px solid var(--main-color);
+  padding-left: 2rem;
+}
+
+.timeline h3 {
+  font-size: 5rem;
+  margin: 10rem 0 1rem;
+  color: var(--text-color);
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: var(--main-color);
+  border-radius: 50%;
+  box-shadow: 0 0 5px var(--main-color);
+}
+
+.timeline-item .date {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.timeline-item h4 {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  margin-bottom: 0.3rem;
+}
+
+.timeline-item p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+/* Skills List */
+.skills {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.skills li {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+  position: relative;
+  padding-left: 2rem;
+  color: var(--text-color);
+}
+
+.skills li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
 ::-webkit-scrollbar{
   width: 20px;
 }
@@ -460,3 +535,5 @@ section{
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+

@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -37,16 +38,26 @@
     <!-- Home Section Starts -->
     <section class="home" id="home">
       <div class="home-content">
-        <h1>Hi, It's <span>Jayson</span></h1>
-        <h3>I'm an aspiring <span>Web Developer</span></h3>
-        <p>
+        <h1 data-aos="fade-right" data-aos-duration="1000">
+          Hi, It's <span>Jayson</span>
+        </h1>
+        <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+          I'm an aspiring <span>Web Developer</span>
+        </h3>
+        <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
           I am passionate about creating beautiful and functional websites that
           provide an exceptional user experience. With a strong foundation in
           HTML, CSS, and JavaScript, I am eager to contribute my skills to
           exciting projects and continue learning in the ever evolving field of
           web development.
         </p>
-        <div class="social-icons">
+
+        <div
+          class="social-icons"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+        >
           <a href="https://www.facebook.com/jaysonmalakidialde" target="_blank"
             ><i class="bx bxl-facebook"></i
           ></a>
@@ -62,26 +73,44 @@
             ><i class="bx bx-envelope"></i
           ></a>
         </div>
-        <div class="btn-group">
+
+        <div
+          class="btn-group"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="800"
+        >
           <a href="RESUME-JAYSON.pdf" class="btn" target="_blank">
             <i class="bx bx-download"></i> Resume
           </a>
         </div>
       </div>
 
-      <div class="home-img">
-        <img src="image.png" alt="" />
+      <div
+        class="home-img"
+        data-aos="zoom-in-left"
+        data-aos-duration="1200"
+        data-aos-delay="500"
+      >
+        <img src="image.png" alt="Jayson profile picture" />
       </div>
     </section>
 
     <section class="about" id="about">
       <div class="about-img">
-        <img src="image.png" alt="" />
+        <img
+          src="image.png"
+          alt="About Me photo"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        />
       </div>
 
       <div class="about-content">
-        <h2>About <span>Me</span></h2>
-        <p>
+        <h2 data-aos="fade-up" data-aos-duration="800">
+          About <span>Me</span>
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           Hi, I'm Jayson! I'm a BSIT student passionate about technology,
           coding, and creating practical solutions through programming. Right
           now, I'm focusing on building simple but useful projects like
@@ -91,43 +120,158 @@
           finish school, become a skilled programmer, start my own business, and
           one day retire as a successful entrepreneur. I believe in learning
           step by step and applying what I know to real world problems. For me,
-          every project is not just a requirement it's a stepping stone toward
+          every project is not just a requirement—it's a stepping stone toward
           my bigger dream.
         </p>
+
+        <!-- Timeline Section -->
+        <div class="timeline">
+          <!-- Education -->
+          <h3 data-aos="fade-up" data-aos-duration="800">Education</h3>
+          <div
+            class="timeline-item"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <span class="date">2022 - 2024</span>
+            <h4>
+              Senior High School - Pasay City North High School (M. Dela Cruz)
+            </h4>
+            <p>TVL-ICT Strand (Gr 11 & Gr 12)</p>
+          </div>
+          <div
+            class="timeline-item"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <span class="date">2018 - 2022</span>
+            <h4>
+              Junior High School - Pasay City North High School (M. Dela Cruz)
+            </h4>
+          </div>
+          <div
+            class="timeline-item"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <span class="date">2012 - 2018</span>
+            <h4>Elementary - Juan Sumulong Elementary School</h4>
+          </div>
+
+          <!-- Work Experience -->
+          <h3 data-aos="fade-up" data-aos-duration="800" class="mt-4">
+            Work Experience
+          </h3>
+          <div
+            class="timeline-item"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <span class="date">Feb 19 - 29, 2024</span>
+            <h4>Work Immersion / OJT - Editor & Photographer</h4>
+            <p>2264 Unit 104-A Sherwood Commercial Center, Taft Ave, Manila</p>
+          </div>
+
+          <!-- Skills -->
+          <h3 data-aos="fade-up" data-aos-duration="800" class="mt-4">
+            Skills
+          </h3>
+          <ul class="skills" data-aos="fade-up" data-aos-duration="1000">
+            <li>Computer Literate</li>
+            <li>
+              Basic to intermediate skills in photo editing and photography
+            </li>
+            <li>
+              Knowledgeable in troubleshooting PC, printer, Iphones and other hardware
+            </li>
+            <li>Background in coding and database (Java, MySql, MS Access & VBA)</li>
+            <li>Basics to Intermedia knowledge of Web Development (HTML, CSS, JavaScript)</li>
+            <li>Enthusiastic about expanding knowledge and skillset</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section class="services" id="services">
-      <h2 class="heading">Services</h2>
+      <h2 class="heading" data-aos="fade-up" data-aos-duration="1000">
+        Services
+      </h2>
 
       <div class="services-container">
-        <div class="service-box">
+        <div
+          class="service-box"
+          data-aos="zoom-in-up"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
           <div class="service-info">
-            <i class="bx bx-code-curly"></i>
-            <h4>Programming Development</h4>
-            <p>
+            <i
+              class="bx bx-code-curly"
+              data-aos="flip-left"
+              data-aos-duration="1200"
+            ></i>
+            <h4
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              Programming Development
+            </h4>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
               I can build small-scale projects and management systems using
               Java, MS Access, and basic web technologies.
             </p>
           </div>
         </div>
 
-        <div class="service-box">
+        <div
+          class="service-box"
+          data-aos="zoom-in-up"
+          data-aos-duration="1200"
+          data-aos-delay="400"
+        >
           <div class="service-info">
-            <i class="bx bx-desktop"></i>
-            <h4>PC & Hardware Support</h4>
-            <p>
+            <i
+              class="bx bx-desktop"
+              data-aos="flip-up"
+              data-aos-duration="1200"
+            ></i>
+            <h4
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              PC & Hardware Support
+            </h4>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
               Able to troubleshoot, repair, and maintain PCs, printers, and even
               mobile devices.
             </p>
           </div>
         </div>
 
-        <div class="service-box">
+        <div
+          class="service-box"
+          data-aos="zoom-in-up"
+          data-aos-duration="1200"
+          data-aos-delay="600"
+        >
           <div class="service-info">
-            <i class="bx bx-code-alt"></i>
-            <h4>Web & Coding Assistance</h4>
-            <p>
+            <i
+              class="bx bx-code-alt"
+              data-aos="flip-right"
+              data-aos-duration="1200"
+            ></i>
+            <h4
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              Web & Coding Assistance
+            </h4>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
               Knowledgeable in Visual Studio Code and capable of creating simple
               websites and coding projects.
             </p>
@@ -137,10 +281,12 @@
     </section>
 
     <section class="projects" id="projects">
-      <h2 class="heading">Projects</h2>
+      <h2 class="heading" data-aos="fade-up" data-aos-duration="800">
+        Projects
+      </h2>
       <div class="projects-box">
-        <div class="project-card">
-          <img src="project1.png" alt="" />
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+          <img src="project1.png" alt="Project 1" />
           <h3>Sari-Sari Store Inventory Management System</h3>
           <p>
             Developed a simple inventory system that tracks products, sales, and
@@ -148,8 +294,13 @@
           </p>
         </div>
 
-        <div class="project-card">
-          <img src="project2.png" alt="" />
+        <div
+          class="project-card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <img src="project2.png" alt="Project 2" />
           <h3>MS Access - SSIMS Database</h3>
           <p>
             Designed and implemented a database in MS Access for the SSIMS,
@@ -157,8 +308,13 @@
           </p>
         </div>
 
-        <div class="project-card">
-          <img src="project3.png" alt="" />
+        <div
+          class="project-card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <img src="project3.png" alt="Project 3" />
           <h3>Portfolio Website (VS Code)</h3>
           <p>
             Built a personal portfolio website using HTML, CSS, and basic
@@ -167,8 +323,13 @@
           </p>
         </div>
 
-        <div class="project-card">
-          <img src="project4.jpg" alt="" />
+        <div
+          class="project-card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+        >
+          <img src="project4.jpg" alt="Project 4" />
           <h3>Printer Troubleshooting</h3>
           <p>
             Hands-on experience in diagnosing and fixing printer issues,
@@ -176,8 +337,13 @@
           </p>
         </div>
 
-        <div class="project-card">
-          <img src="project5.jpg" alt="" />
+        <div
+          class="project-card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="800"
+        >
+          <img src="project5.jpg" alt="Project 5" />
           <h3>PC Troubleshooting</h3>
           <p>
             Skilled at assembling, repairing, and maintaining desktop computers,
@@ -185,8 +351,13 @@
           </p>
         </div>
 
-        <div class="project-card">
-          <img src="project6.jpg" alt="" />
+        <div
+          class="project-card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+        >
+          <img src="project6.jpg" alt="Project 6" />
           <h3>iPhone Repair</h3>
           <p>
             Practical experience in fixing common iPhone issues such as battery
@@ -197,11 +368,13 @@
     </section>
 
     <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me</span></h2>
+      <h2 class="heading" data-aos="fade-down" data-aos-duration="800">
+        Contact <span>Me</span>
+      </h2>
 
       <form action="https://formspree.io/f/mkgvyllr" method="POST">
         <div class="input-group">
-          <div class="input-box">
+          <div class="input-box" data-aos="fade-right" data-aos-duration="1000">
             <input
               type="text"
               name="Full Name"
@@ -211,7 +384,12 @@
             <input type="email" name="Email" placeholder="Email" required />
           </div>
 
-          <div class="input-box">
+          <div
+            class="input-box"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
             <input
               type="number"
               name="Mobile Number"
@@ -228,8 +406,18 @@
             cols="30"
             rows="10"
             required
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
           ></textarea>
-          <input type="submit" value="Send Message" class="btn" />
+          <input
+            type="submit"
+            value="Send Message"
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="500"
+          />
         </div>
       </form>
     </section>
@@ -267,5 +455,13 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000, // animation speed
+        once: false, // animate only once when scrolling
+        mirror: true, // <--- animate again when scrolling back up
+      });
+    </script>
   </body>
 </html>
