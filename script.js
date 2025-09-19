@@ -8,7 +8,7 @@ menuIcon.onclick = () => {
 const themeToggle = document.getElementById("theme-icon");
 const body = document.body;
 
-// check saved theme
+// DARK MODE
 if (localStorage.getItem("theme") === "dark") {
   body.classList.add("dark-mode");
   themeToggle.classList.replace("bx-moon", "bx-sun");
