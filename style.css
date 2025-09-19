@@ -85,6 +85,8 @@ section {
   min-height: 100vh;
   padding: 10rem 15%;
 }
+
+/* HOME DESIGN */
 .home {
   display: flex;
   align-items: center;
@@ -175,6 +177,9 @@ section {
   background-color: var(--main-color);
   color: black;
 }
+
+
+/* ABOUT DESIGN */
 .about {
   display: flex;
   justify-content: center;
@@ -343,6 +348,8 @@ section {
 .service-info i {
   font-size: 10rem;
 }
+
+/* PROJECTS DESIGN */
 .projects {
   background: var(--second-bg-color);
 }
@@ -384,6 +391,9 @@ section {
 .project-card p {
   font-size: 1.6rem;
 }
+
+
+/* CONTACT DESIGN */
 .contact {
   background: var(--bg-color);
 }
@@ -411,6 +421,9 @@ section {
   margin: 1.5rem 0;
   resize: none;
 }
+
+
+/* FOOTER DESIGN */
 .footer {
   background-color: var(--second-bg-color);
   padding: 50px 0;
@@ -502,6 +515,9 @@ section {
     flex-direction: column;
   }
 }
+
+
+/* DARKMODE DESIGN */
 .theme-toggle {
   margin-left: 1rem;
   font-size: 4rem;
